@@ -9,6 +9,7 @@ int main(){
 
     struct no *lista, *p, *q;
     int sn, cont, pos, i;
+    
     lista = NULL;
     cont = 0;
 
@@ -65,7 +66,8 @@ int main(){
 
         printf("Deseja inserir outro no a direita? 0-nao 1-sim ");
         scanf("%d", &sn);
-    }while(sn == 1);
+    }
+    while(sn == 1);
 
     //imprime lista
     printf("\n\n");
